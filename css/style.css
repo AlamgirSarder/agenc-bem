@@ -420,5 +420,43 @@ h1,h2,h3,h4,h5,h6,p{
 
 }
 
+.agenc__card-heading{
+    font-family: "Inter", serif;
+    font-weight: 700;
+    font-size: 25px;
+    color:var(--heading-color);
+    padding-top: 20px;
+    padding-bottom: 10px;   
+}
 
+.agenc__card-para{
+    font-family: "Inter", serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color:var(--para-color);
+    width: 344px;
+}
+.agenc__card-wrapper{
+    margin-top: 130px;
+}
+
+.agenc__content--left{
+    display: grid;
+    grid-template-columns: repeat(2,344px);
+    gap: 88px 103px;
+}
+
+.agenc__content--right{
+    width: 428px;
+    height: 428px;
+}
+
+.agenc__card-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.agenc__card-right-img{
+width: 100%;
+}
 /*== AGENC END ==*/
