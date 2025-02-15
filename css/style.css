@@ -480,6 +480,9 @@ p {
 .client__card:hover {
   background-color: #f4efef;
 }
+
+
+
 .client__card-para {
   font-family: "Inter", serif;
   font-weight: 400;
@@ -529,6 +532,10 @@ p {
   left: -67px;
 }
 
+
+.client__card--change{
+  background-color:#f4efef ;
+  }
 /*== CLIENT END ==*/
 
 /*== FORM START ==*/
