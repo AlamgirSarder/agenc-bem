@@ -553,3 +553,111 @@ width: 100%;
 }
 
 /*== CLIENT END ==*/
+
+/*== FORM START ==*/
+.form{
+    background-color: #F3F3F3;
+}
+.form__container{
+    width: 1320px;
+    margin:auto;
+    padding: 150px 0;
+  
+}
+
+.form__left-heading{
+    font-family: "Inter", serif;
+    font-weight: 700;
+    font-size: 45px;
+    color:var(--heading-color);
+    margin-bottom: 20px;
+    width: 470px;
+    line-height: 50px;
+}
+
+.form__left-para{
+
+    font-family: "Inter", serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color:#7B7B7B;
+    width: 514px;
+
+    
+
+}
+
+.form__left-para--mt{
+    margin-top: 10px;
+}
+
+.form__formpart{
+    border-radius: 20px;
+    background-color: var(--color-white);
+    padding: 61px 43px;
+    width: 536px;
+}
+
+.form__formpart-heading{
+    font-family: "Inter", serif;
+    font-weight: 700;
+    font-size: 30px;
+    color:var(--heading-color);
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+
+.form__formpart-input{
+    width: 100%;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    padding-left: 23px;
+    border-radius: 10px;
+    border: 1px solid #E8E8E8;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.form__formpart-input::placeholder{
+    font-family: "Inter", serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #D0D0D0;
+}
+
+.form__formpart-label{
+    font-family: "Inter", serif;
+    font-weight: 500;
+    font-size: 16px;
+    color:var(--heading-color);
+}
+
+.form__formpart-btn{
+    font-family: "Inter", serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    padding: 19px 0;
+    border-radius: 10px;
+    background-color: var(--primary-color);
+    color: var(--color-white);
+    border: 1px solid var(--primary-color);
+    margin-top: 30px;
+    width: 100%;
+}
+
+.form__content{
+    display: flex;
+    align-items: center;
+    
+}
+
+.form__left--flexbasis{
+    flex-basis: 50%;
+}
+.form__right--flexbasis{
+    flex-basis: 50%;
+}
+/*== FORM END ==*/
