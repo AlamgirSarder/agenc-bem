@@ -185,7 +185,7 @@ p {
   margin-bottom: 149px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+
 }
 .success__stats {
   display: flex;
@@ -536,6 +536,24 @@ p {
 .client__card--change{
   background-color:#f4efef ;
   }
+
+  .client__man-heading{
+  font-family: "Inter", serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #232323;
+  margin-bottom: 5px;
+ 
+  
+}
+.client__man-para{
+  font-family: "Inter", serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #7B7B7B;
+}
+
 /*== CLIENT END ==*/
 
 /*== FORM START ==*/
